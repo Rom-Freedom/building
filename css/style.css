@@ -10,9 +10,55 @@ body {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
 }
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Oswald', sans-serif; */
+
+.container {
+    max-width: 1100px;
+    background-color: #ddd;
+    margin: 0 auto;
+}
+    /* COLOR VARIABLES */
+:root {
+    --accent-color: #F7654A;
+    --dark-color: #404149;
+    --gray-color: #999;
+    --white-color: #FFF;
+    --background-color: #E5E5E5;
+}
+    /* STYLE FOR HEADERS */
+.text_h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.text_h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.text_h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+}
+    /* STYLE FOR PARAGRAPH */
+.text_p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.text_p_previews {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21;
+}
 .header {
+    min-height: 740px;
+    background-image: url(../images/Rectangle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header_title {
 }
