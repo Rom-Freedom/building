@@ -89,7 +89,32 @@ body {
     background-color: #FFF;
     margin-bottom: 4px;
 }
+
+.burger__line:last-child { /* to align line by center */
+    margin-bottom: 0px;
+}
 .h1 {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Oswald;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    width: 734px;
+    margin: 0 auto 17px;
 }
 .h4 {
+    margin: 0 auto;
+    max-width: 734px;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Oswald;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
