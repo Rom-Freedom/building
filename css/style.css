@@ -153,9 +153,38 @@ body {
     width: 190px;   
 }
 .about__h4 {
+    color: var(--Accent, #F7654A);
+    font-size: 72px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 5px;
 }
 .about__h5 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 .about__p {
+    color: var(--gray, #999);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1280px) {
+    .about__grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .info {
+        position: relative;
+    }
+    .about__grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr); 
+    }
 }
 
