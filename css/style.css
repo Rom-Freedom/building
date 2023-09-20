@@ -448,7 +448,7 @@ gap: 0;
     display: inline-block;
     width: 15px;
     height: 15px;
-    background-image: url(/images/Question_orange_arrow.svg);
+    background-image: url(images/Question_orange_arrow.svg);
     background-repeat: no-repeat; /* to delete extraneous element */
     background-position: center;
     margin-right: 14px;
