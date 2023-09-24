@@ -193,10 +193,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-.info {
-    position: relative;
-    padding: 30px 0px;
-}
+    .info {
+        position: relative;
+        padding: 30px 0px;
+    }
 .about__grid {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr); 
@@ -439,29 +439,7 @@ body {
     margin-bottom: 40px;
 }
 
-.question_h3.close {
-    margin-bottom: 33px;
-}
 
-.question_h3.open::before,
-.question_h3.close::before {
-    content: "";
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    background-image: url(/images/orange_arrow.svg);
-    background-repeat: no-repeat; /* to delete extraneous element */
-    background-position: center;
-    margin-right: 14px;
-}
-
-.question_h3.open::before {
-    transform: rotate(-90deg); /* to turn the arrow */
-}
-
-.question_h3.close + .question_p {
-    display: none;   /* to hide some chapter */
-}
 
 @media screen and (max-width: 1280px) {
     .question {
@@ -623,6 +601,12 @@ body {
 .contacts__h3 {
     text-transform: uppercase;
 }
+
+.contacts__h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .contacts__h3-gray {
     color: var(--gray-color);
     margin-bottom: 18px;
@@ -688,8 +672,3 @@ body {
     }
 }
    
-
-
-
-
-
