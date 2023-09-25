@@ -14,16 +14,25 @@
     <title>Building</title>
 </head>
 <body>
+    <!-- SIDE NAV -->
+    <ul id="slide-out" class="sidenav">
+        <li><a href="#!"><i class="material-icons">home</i>Главная</a></li>
+        <li><a href="#!"><i class="material-icons">people</i>О нас</a></li>
+        <li><a href="#!"><i class="material-icons">grade</i>Услуги</a></li>
+        <li><a href="#!"><i class="material-icons">phone</i>Контакты</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#!" class="sidenav-close"><i class="material-icons">close</i>Закрыть</a></li>
+      </ul>
     <!-- FIRST SECTION HEADER -->
     <header class="header">
         <div class="container">
             <div class="header_title">
                 <img src="images/logo.svg" alt="logo" class="logo">
-                <button class="burger">
+                <a class="burger sidenav-trigger" data-target="slide-out">
                     <span class="burger__line"></span>
                     <span class="burger__line"></span>
                     <span class="burger__line"></span>
-                </button>
+                </a>
             </div>
             <h1 class="h1">реализуем крупнейшие проекты в России</h1>
             <h4 class="h4">Стадионы, газопроводы, мосты, дамбы</h4>
